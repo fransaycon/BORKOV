@@ -1,0 +1,5 @@
+True positive: 23967
+True negative: 2810297
+False positive: 45573
+False negative: 3747
+Tanimoto Coefficient: 0.327029350362

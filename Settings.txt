@@ -1,0 +1,17 @@
+#Place the directories of the important folders here. 
+#Do not change the following labels, make sure to add \ for the character '\' might get ignored in python.
+#Datasets_Raw_UNC - this is where the 5 UNC MRI data is found. Program will locate FLAIR of filename UNC_train_Case0*n*_FLAIR.nhdr where n = (1,2,3,4,5), remove asterisks.
+#Datasets_Raw_CHB - this is where the 5 CHB MRI data is found. Program will locate FLAIR of filename CHB_train_Case0*n*_FLAIR.nhdr where n = (1,2,3,4,5), remove asterisks.
+#Datasets_BrainMasks_UNC - this is where the 5 UNC Skullstripped and Denoised MRI data is found. Program will locate T1/T2 of filename UNC_CASE0*n*_BRAINMASK.nhdr where n = (1,2,3,4,5), remove asterisks. 
+#Datasets_BrainMasks_UNC - this is where the 5 CHB Skullstripped and Denoised MRI data is found. Program will locate T1/T2 of filename CHB_CASE0*n*_BRAINMASK.nhdr where n = (1,2,3,4,5), remove asterisks. 
+#Data_KNN_UNC - this is where the quantified brain masks of the UNC images are found as well as the final data that will be used for the KNN testing process. This is to allow a small RAM usage. 
+#Data_KNN_CHB - this is where the quantified brain masks of the CHB images are found as well as the final data that will be used for the KNN testing process. This is to allow a small RAM usage. 
+#Spaces in between is important. other unnecessary spaces should be extremely avoided.
+#Directories of Datasets_* should contain UNC_CASE0*n* and CHB_CASE0*n* subdirectories respectively. where n = (1,2,3,4,5). remove asterisks.
+
+Datasets_Raw_UNC: C:\Users\USER\Desktop\THESIS\Datasets\Raw\UNC
+Datasets_Raw_CHB: C:\Users\USER\Desktop\THESIS\Datasets\Raw\CHB
+Datasets_BrainMasks_UNC: C:\Users\USER\Desktop\THESIS\Datasets\BrainMasks\UNC
+Datasets_BrainMasks_CHB: C:\Users\USER\Desktop\THESIS\Datasets\BrainMasks\CHB
+Data_KNN_UNC: C:\Users\USER\Desktop\THESIS\Main\KNN\Data\UNC
+Data_KNN_CHB: C:\Users\USER\Desktop\THESIS\Main\KNN\Data\CHB
